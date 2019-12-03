@@ -1,0 +1,20 @@
+{
+    "name": "keyframes",
+    "displayName": "keyframes",
+    "description": "Snippets for small but useful animations based on keyframes (source: vov.css)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

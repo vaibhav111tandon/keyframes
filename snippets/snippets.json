@@ -1,0 +1,286 @@
+{
+    "Fade In": {
+        "prefix": "fade-in",
+        "body": [
+            "@keyframes fade-in{",
+                "from{",
+                    "opacity: 0;",
+                "}",
+                "to{",
+                    "opacity: 1;",   
+                "}",
+            "}"
+        ],
+        "description": "Fade in keyframe"
+    },
+    "Fade in up": {
+        "prefix": "fade-in-up",
+        "body": [
+            "@keyframes fade-in-up{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(0, 100%, 0);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Fade in up keyframe"
+    },
+    "Fade in top right": {
+        "prefix": "fade-in-top-right",
+        "body": [
+            "@keyframes fade-in-top-right{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(100%, -100%, 0);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Fade in top right keyframe"
+    },
+    "Fade in top left": {
+        "prefix": "fade-in-top-left",
+        "body": [
+            "@keyframes fade-in-top-left{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(-100%, -100%, 0);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Fade in top left keyframe"
+    },
+    "Fade in right": {
+        "prefix": "fade-in-top-right",
+        "body": [
+            "@keyframes fade-in-right{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(100%, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Fade in right keyframe"
+    },
+    "Fade in left": {
+        "prefix": "fade-in-left",
+        "body": [
+            "@keyframes fade-in-left{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(-100%, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Fade in left keyframe"
+    },
+    "Fade in down": {
+        "prefix": "fade-in-down",
+        "body": [
+            "@keyframes fade-in-down{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(0, -100%, 0);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Fade in down keyframe"
+    },
+    "Fade in bottom right": {
+        "prefix": "fade-in-bottom-right",
+        "body": [
+            "@keyframes fade-in-bottom-right{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(100%, 100%, 0);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Fade in bottom right keyframe"
+    },
+    "Fade in bottom left": {
+        "prefix": "fade-in-bottom-left",
+        "body": [
+            "@keyframes fade-in-bottom-left{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(-100%, 100%, 0);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Fade in bottom left keyframe"
+    },
+    "Fade out": {
+        "prefix": "fade-out",
+        "body": [
+            "@keyframes fade-out{",
+                "from{",
+                    "opacity: 1;",
+                "}",
+                "to{",
+                    "opacity: 0;",   
+                "}",
+            "}"
+        ],
+        "description": "Fade out keyframe"
+    },
+    "Fade out up": {
+        "prefix": "fade-out-up",
+        "body": [
+            "@keyframes fade-out-up{",
+                "from{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(0, -100%, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Fade out up keyframe"
+    },
+    "Fade out top right": {
+        "prefix": "fade-out-top-right",
+        "body": [
+            "@keyframes fade-out-top-right{",
+                "from{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(100%, -100%, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Fade out top right keyframe"
+    },
+    "Fade out top left": {
+        "prefix": "fade-out-top-left",
+        "body": [
+            "@keyframes fade-out-top-left{",
+                "from{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(-100%, -100%, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Fade out top left keyframe"
+    },
+    "Fade out right": {
+        "prefix": "fade-out-right",
+        "body": [
+            "@keyframes fade-out-right{",
+                "from{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(100%, 0, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Fade out right keyframe"
+    },
+    "Fade out left": {
+        "prefix": "fade-out-left",
+        "body": [
+            "@keyframes fade-out-left{",
+                "from{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(-100%, 0, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Fade out left keyframe"
+    },
+    "Fade out down": {
+        "prefix": "fade-out-down",
+        "body": [
+            "@keyframes fade-out-down{",
+                "from{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(0, 100%, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Fade out down keyframe"
+    },
+    "Fade out bottom right": {
+        "prefix": "fade-out-bottom-right",
+        "body": [
+            "@keyframes fade-out-bottom-right{",
+                "from{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(100%, 100%, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Fade out bottom right keyframe"
+    },
+    "Fade out bottom left": {
+        "prefix": "fade-out-bottom-left",
+        "body": [
+            "@keyframes fade-out-bottom-left{",
+                "from{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(-100%, 100%, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Fade out bottom left keyframe"
+    }
+}
