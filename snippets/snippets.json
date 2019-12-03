@@ -282,5 +282,517 @@
             "}"            
         ],
         "description": "Fade out bottom left keyframe"
+    },
+    "Blur in": {
+        "prefix": "blur-in",
+        "body": [
+            "@keyframes blur-in{",
+                "from{",
+                    "opacity: 0;",
+                    "filter: blur(4px);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "filter: blur(0);",
+                "}",
+            "}"
+        ],
+        "description": "Blur in keyframe"
+    },
+    "Blur out": {
+        "prefix": "blur-out",
+        "body": [
+            "@keyframes blur-out{",
+                "from{",
+                    "opacity: 1;",
+                    "filter: blur(0);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "filter: blur(4px);",
+                "}",
+            "}"
+        ],
+        "description": "Blur out keyframe"
+    },
+    "Roll in left": {
+        "prefix": "roll-in-left",
+        "body": [
+            "@keyframes roll-in-left{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Roll in left keyframe"
+    },
+    "Roll in right": {
+        "prefix": "roll-in-right",
+        "body": [
+            "@keyframes roll-in-right{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);",
+                "}",
+                "to{",
+                    "opacity: 1;",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Roll in right keyframe"
+    },
+    "Roll out left": {
+        "prefix": "roll-out-left",
+        "body": [
+            "@keyframes roll-out-left{",
+                "from{",
+                    "opacity: 1;",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);",
+                "}",
+            "}"
+        ],
+        "description": "Roll out left keyframe"
+    },
+    "Roll out right": {
+        "prefix": "roll-out-right",
+        "body": [
+            "@keyframes roll-out-right{",
+                "from{",
+                    "opacity: 1;",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);",
+                "}",
+            "}"
+        ],
+        "description": "Roll out right keyframe"
+    },
+    "Shake Horizontal": {
+        "prefix": "shake-horizontal",
+        "body": [
+            "@keyframes shake-horizontal{",
+                "0%, 20%, 40%, 60%, 80%, 100%{",
+                    "transform: translate3d(7px, 0, 0);",
+                "}",
+                "10%, 30%, 50%, 70%, 90%{",
+                    "transform: translate3d(-7px, 0, 0)",
+                "}",
+            "}"
+        ],
+        "description": "Horizontal shake keyframe"
+    },
+    "Shake Vertical": {
+        "prefix": "shake-vertical",
+        "body": [
+            "@keyframes shake-vertical{",
+                "0%, 20%, 40%, 60%, 80%, 100%{",
+                    "transform: translate3d(0, 7px, 0);",
+                "}",
+                "10%, 30%, 50%, 70%, 90%{",
+                    "transform: translate3d(0, -7px, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Vertical shake keyframe"
+    },
+    "Slide in down": {
+        "prefix": "slide-in-down",
+        "body": [
+            "@keyframes slide-in-down{",
+                "from{",
+                    "transform: translate3d(0, -100%, 0);",
+                    "visibility: visible;",
+                "}",
+                "to{",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Slide in down keyframe"
+    },
+    "Slide in left": {
+        "prefix": "slide-in-left",
+        "body": [
+            "@keyframes slide-in-left{",
+                "from{",
+                    "transform: translate3d(-100%, 0, 0);",
+                    "visibility: visible;",
+                "}",
+                "to{",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Slide in left keyframe"
+    },
+    "Slide in right": {
+        "prefix": "slide-in-right",
+        "body": [
+            "@keyframes slide-in-right{",
+                "from{",
+                    "transform: translate3d(100%, 0, 0);",
+                    "visibility: visible;",
+                "}",
+                "to{",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Slide in right keyframe"
+    },
+    "Slide in up": {
+        "prefix": "slide-in-up",
+        "body": [
+            "@keyframes slide-in-up{",
+                "from{",
+                    "transform: translate3d(0, 100%, 0);",
+                    "visibility: visible;",
+                "}",
+                "to{",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+            "}"            
+        ],
+        "description": "Slide in up keyframe"
+    },
+    "Slide out down": {
+        "prefix": "slide-out-down",
+        "body": [
+            "@keyframes slide-out-down{",
+                "from{",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "visibility: hidden;",
+                    "transform: translate3d(0, 100%, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Slide out down keyframe"
+    },
+    "Slide out left": {
+        "prefix": "slide-out-left",
+        "body": [
+            "@keyframes slide-out-left{",
+                "from{",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "visibility: hidden;",
+                    "transform: translate3d(-100%, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Slide out left keyframe"
+    },
+    "Slide out right": {
+        "prefix": "slide-out-right",
+        "body": [
+            "@keyframes slide-out-right{",
+                "from{",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "visibility: hidden;",
+                    "transform: translate3d(100%, 0, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Slide out right keyframe"
+    },
+    "Slide out up": {
+        "prefix": "slide-out-up",
+        "body": [
+            "@keyframes slide-out-up{",
+                "from{",
+                    "transform: translate3d(0, 0, 0);",
+                "}",
+                "to{",
+                    "visibility: hidden;",
+                    "transform: translate3d(0, -100%, 0);",
+                "}",
+            "}"
+        ],
+        "description": "Slide out up keyframe"
+    },
+    "Swivel horizontal": {
+        "prefix": "swivel-horizontal",
+        "body": [
+            "@keyframes swivel-horizontal {",
+                "from {",
+                  "transform: rotateY(0);",
+                "}",
+                "to {",
+                  "transform: rotateY(360deg);",
+                "}",
+            "}"
+        ],
+        "description": "Swivel horizontal keyframe"
+    },
+    "Swivel vertical": {
+        "prefix": "swivel-vertical",
+        "body": [
+            "@keyframes swivel-vertical {",
+                "from {",
+                  "transform: rotateX(0);",
+                "}",
+                "to {",
+                  "transform: rotateX(360deg);",
+                "}",
+              "}"
+        ],
+        "description": "Swivel vertical keyframe"
+    },
+    "Swivel double horizontal": {
+        "prefix": "swivel-horizontal-double",
+        "body": [
+            "@keyframes swivel-horizontal-double {",
+                "from {",
+                  "transform: rotateY(0);",
+                "}",
+                "to {",
+                  "transform: rotateY(720eg);",
+                "}",
+            "}"
+        ],
+        "description": " Double Swivel horizontal keyframe"
+    },
+    "Swivel double vertical": {
+        "prefix": "swivel-vertical-double",
+        "body": [
+            "@keyframes swivel-vertical-double {",
+                "from {",
+                  "transform: rotateX(0);",
+                "}",
+                "to {",
+                  "transform: rotateX(720deg);",
+                "}",
+              "}"
+        ],
+        "description": "Double Swivel vertical keyframe"
+    },
+    "Zoom in": {
+        "prefix": "zoom-in",
+        "body": [
+            "@keyframes zoom-in{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.3, 0.3, 0.3);",
+                "}",
+                "50%{",
+                    "opacity: 1;",
+                "}",
+            "}"
+        ],
+        "description": "Zoom in keyframe"
+    },
+    "Zoom in up": {
+        "prefix": "zoom-in-up",
+        "body": [
+            "@keyframes zoom-in-up{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);",
+                    "animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);",
+                "}",
+                "70%{",
+                    "opacity: 1;",
+                    "transform: scale3d(0.5, 0.5, 0.5) translate3d(0, -20px, 0);",
+                    "animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);",
+                "}",
+            "}"
+        ],
+        "description": "Zoom in up keyframe"
+    },
+    "Zoom in right": {
+        "prefix": "zoom-in-right",
+        "body": [
+            "@keyframes zoom-in-right{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);",
+                    "animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);",
+                "}",
+                "70%{",
+                    "opacity: 1;",
+                    "transform: scale3d(0.5, 0.5, 0.5) translate3d(-10px, 0, 0);",
+                    "animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);",
+                "}",
+            "}"
+        ],
+        "description": "Zoom in right keyframe"
+    },
+    "Zoom in left": {
+        "prefix": "zoom-in-left",
+        "body": [
+            "@keyframes zoom-in-left{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);",
+                    "animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);",
+                "}",
+                "70%{",
+                    "opacity: 1;",
+                    "transform: scale3d(0.5, 0.5, 0.5) translate3d(10px, 0, 0);",
+                    "animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);",
+                "}",
+            "}"
+        ],
+        "description": "Zoom in left keyframe"
+    },
+    "Zoom in down": {
+        "prefix": "zoom-in-down",
+        "body": [
+            "@keyframes zoom-in-down{",
+                "from{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);",
+                    "animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);",
+                "}",
+                "70%{",
+                    "opacity: 1;",
+                    "transform: scale3d(0.5, 0.5, 0.5) translate3d(0, 20px, 0);",
+                    "animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);",
+                "}",
+            "}"
+        ],
+        "description": "Zoom in down keyframe"
+    },
+    "Zoom out": {
+        "prefix": "zoom-out",
+        "body": [
+            "@keyframes zoom-out{",
+                "from{",
+                    "opacity: 1;",
+                "}",
+                "50%{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.3, 0.3, 0.3);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                "}",
+            "}"
+        ],
+        "description": "Zoom out keyframe"
+    },
+    "Zoom out right": {
+        "prefix": "zoom-out-right",
+        "body": [
+            "@keyframes zoom-out-right{",
+                "40%{",
+                    "opacity: 1;",
+                    "transform: scale3d(0.5, 0.5, 0.5) translate3d(-20px, 0, 0);",
+                    "animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);",
+                    "animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);",
+                "}",
+            "}"
+        ],
+        "description": "Zoom out right keyframe"
+    },
+    "Zoom out left": {
+        "prefix": "zoom-out-left",
+        "body": [
+            "@keyframes zoom-out-left{",
+                "40%{",
+                    "opacity: 1;",
+                    "transform: scale3d(0.5, 0.5, 0.5) translate3d(20px, 0, 0);",
+                    "animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);",
+                    "animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);",
+                "}",
+            "}"
+        ],
+        "description": "Zoom out left keyframe"
+    },
+    "Zoom out down": {
+        "prefix": "zoom-out-down",
+        "body": [
+            "@keyframes zoom-out-down{",
+                "40%{",
+                    "opacity: 1;",
+                    "transform: scale3d(0.5, 0.5, 0.5) translate3d(0, -20px, 0);",
+                    "animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);",
+                    "animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);",
+                "}",
+            "}"
+        ],
+        "description": "Zoom out down keyframe"
+    },
+    "Zoom out up": {
+        "prefix": "zoom-out-up",
+        "body": [
+            "@keyframes zoom-out-up{",
+                "40%{",
+                    "opacity: 1;",
+                    "transform: scale3d(0.5, 0.5, 0.5) translate3d(0, 20px, 0);",
+                    "animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);",
+                "}",
+                "to{",
+                    "opacity: 0;",
+                    "transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);",
+                    "animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);",
+                "}",
+            "}"
+        ],
+        "description": "Zoom out down keyframe"
+    },
+    "Flash": {
+        "prefix": "flash",
+        "body": [
+            "@keyframes flash{",
+                "0%, 50%, 100%{",
+                    "opacity: 1;",
+                "}",
+                "25%, 75%{",
+                    "opacity: 0;",
+                "}",
+            "}"
+        ],
+        "description": "Flash keyframe"
+    },
+    "Throb": {
+        "prefix": "throb",
+        "body": [
+            "@keyframes throb {",
+                "0% {",
+                  "transform: scale(1);",
+                "}",
+                "12% {",
+                  "transform: scale(1.5);",
+                "}",
+                "27% {",
+                  "transform: scale(1);",
+                "}",
+                "41% {",
+                  "transform: scale(1.5);",
+                "}"
+                "70% {",
+                  "transform: scale(1);",
+                "}",
+              "}"              
+        ],
+        "description": "Throb keyframe"
     }
 }
